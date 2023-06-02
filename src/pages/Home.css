@@ -1,0 +1,89 @@
+ .body{
+    font-family: 'Montserrat', sans-serif; 
+ }
+ .homeBanner{
+    position: relative;
+    width: 100%;
+ 
+  background-size: cover;
+  margin: 0 auto;
+ }
+ 
+ .homeBanner img{
+    width: 100%;
+   height: auto;
+   
+ }
+
+.homeBanner .btn {
+    display: inline-block;
+    position: absolute;
+    top: 62%;
+    left: 10%;
+    
+    background-color: #EA7B15;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 24px;
+   
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.homeBanner .btn:hover {
+    background-color: #FF7A00;
+  }
+  
+.category-tile {
+    
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-top: 30px;
+}
+
+.card {
+    border: 1px solid #2EA332;
+    border-radius: 10px;
+    width: 15rem !important;
+}
+img.card-img-top.product-preview-img {
+    border-radius: 0px 0px 0 0 ;
+}
+
+.category-tile:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .homeBanner .btn{
+      padding:3px 4px;
+      font-size:70%;
+      line-height: 1.7;
+      border-radius:10px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    .homeBanner .btn{
+      padding:4px 9px;
+      font-size:90%;
+      line-height: 2.2;
+      border-radius:10px;
+    }
+  }

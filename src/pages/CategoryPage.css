@@ -1,0 +1,23 @@
+.category-page-container {
+    min-height: 90vh;
+    margin-top: 5px;
+}
+
+.category-banner-container {
+    height: 200px;
+    background-image: url("https://images.unsplash.com/photo-1588172248875-c906768963df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.main-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    text-shadow: 2px 2px 4px #000000;
+}
